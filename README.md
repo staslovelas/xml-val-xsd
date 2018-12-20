@@ -23,4 +23,5 @@ docker run -p 80:80 springio/xml-xsd-validation
 ```bash
 curl -X POST -H "Content-type: application/xml" -d @temp.xml http://localhost:80
 ```
+* Attention: in your POST request at first you must type XML data then XSD
 * Then you get the answer: valid or not valid
